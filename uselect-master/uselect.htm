@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8 />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<link href="css/uselect.css" rel="stylesheet" type="text/css" />
+		<link href="skin/uselect-skin.css" rel="stylesheet" type="text/css" />
+		<link rel="icon" href="favicon.ico" type="image/x-icon"> 
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+
+	</head>
+	<body>
+
+		<div id="logo">
+			<img src="uslogo.png">
+		</div>
+
+		<div id="control-hldr">
+			<div class="control">
+				 Second US Presidential Debate - Foreign and Domestic Policy (Oct 16)
+			</div>
+		</div>
+
+
+		<!-- transcript content -->
+
+		<div id="transcript" class="middle col">
+
+			<!-- video display (when required) -->
+
+			<div id="media-content" class="media-hldr">
+				<div id="jp_container_1" class="jp-video jp-video-360p">
+					<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+					<div class="jp-gui">
+			    	<div class="jp-video-play" style="display:none">
+			    		<span class="jp-video-play-icon"><img src="video-play.png"/></span>
+			    	</div>
+
+			    	<div class="jp-video-busy" style="display:none">
+			    		<span class="jp-video-busy-icon"><img src="ajax-loader.gif"/></span>
+			    	</div>
+
+		    		<div class="jp-quality-ctrl" style="display:none">
+		    			<ul>
+		    				<li><a class="quality-switch" q="lo" href="#">low</a></li>
+		    				<li><a class="quality-switch" q="me" href="#">med</a></li>
+		    				<li><a class="quality-switch" q="hi" href="#">high</a></li>
+		    				<li><a class="quality-switch" q="hd" href="#">HD</a></li>
+							</ul>
+		    		</div>
+
+			    	<!--<div class="jp-screen-loader"></div>-->
+			      <div class="jp-interface">
+			        <div class="jp-controls-holder">
+										<!--play and pause buttons-->
+								<a href="#" class="jp-play" tabindex="1">play</a>
+								<a href="#" class="jp-pause" tabindex="1">pause</a>
+								<span class="separator sep-1"></span>
+									 
+								<!--progress bar-->
+								<div class="jp-progress">
+									<div class="jp-seek-bar">
+									  <div class="jp-play-bar"><span id="jp-play-drag"></span></div>
+									</div>
+								</div>
+									 
+								<!--time -->
+								<div class="jp-current-time"></div>
+								<span class="time-sep">/</span>
+								<div class="jp-duration"></div>
+								
+								<span class="separator sep-2"></span>
+								
+								<div class="jp-quality">
+									<a class="quality-btn" q="lo" href="#" style="display:none">low</a>
+									<a class="quality-btn" q="me" href="#">med</a>
+									<a class="quality-btn" q="hi" href="#" style="display:none">high</a>
+									<a class="quality-btn" q="hd" href="#" style="display:none">HD</a>
+								</div>
+
+			        </div><!--end jp-controls-holder-->
+			      </div><!--end jp-interface-->
+			    </div><!--end jp-gui-->
+		    </div><!--end jp_container_1-->
+			</div>
+
+			
+			<div id="fade-top" class="fader"></div>
+			<div id="transcript-content" class="body row scroll-y">
+			<div id="main-loader">loading transcript</div>
+			</div>
+
+			<div class="footer row" style="display:none">
+				<p></p>
+				<div id="chart">
+				</div>
+				<div class="table-hldr">
+				  <table class="table-bar" cellspacing="0" cellpadding="0">
+				    <tr>
+				      <td>5</td>
+				      <td>10</td>
+				      <td>15</td>
+				      <td>20</td>
+				      <td>25</td>
+				      <td>30</td>
+				      <td>35</td>
+				      <td>40</td>
+				      <td>45</td>
+				      <td>50</td>
+				      <td>55</td>
+				      <td>60</td>
+				      <td>65</td>
+				      <td>70</td>
+				      <td>75</td>
+				      <td>80</td>
+				      <td>85</td>
+				      <td>90</td>
+				      <td class="table-pen-td">95</td>
+				      <td class="table-last-td">mins</td>
+				    </tr>
+				  </table>
+				</div>
+			</div>
+			<div id="fade-bot" class="fader"></div>
+			<div class="mini-footer row">
+				<b>☝</b> Click or touch words in the transcript to view the corresponding part of the debate.		
+			</div>
+			<div class="credits row">
+				<a href="http://aljazeera.com" target="_blank"><img src="aj.png" /></a>
+				<a href="http://www.mozillaopennews.org/" target="_blank"><img src="on.png" /></a>
+			</div>
+		</div>
+
+		<!-- target content -->
+
+		<div class="right col">
+
+			<div id="target-content" class="body row">
+
+
+				<div id="recommended" class="right-panel">
+					<div class="panel-title">
+						Don't-Miss Moments
+					</div>
+					<div class="thumb-hldr">
+						<a class="thumb-link" href="#" data-start="10000" data-end="11200"><img src="thumbs/thumb02.png"></a>
+						<p class="thumb-quote">Romney : "You’ll get your chance" - Fierce exchange on energy <small>[2min]</small></p>
+
+						<a class="thumb-link" href="#" data-start="19180" data-end="19290"><img src="thumbs/thumb03.png"></a>
+						<p class="thumb-quote">Obama brings up "Big Bird" <small>[15sec]</small></p>
+
+						<a class="thumb-link" href="#" data-start="23100" data-end="23410"><img src="thumbs/thumb04.png"></a>
+						<p class="thumb-quote">Romney: "Binders full of women" <small>[1min]</small></p>
+
+						<a class="thumb-link" href="#" data-start="36180" data-end="36390"><img src="thumbs/thumb05.png"></a>
+						<p class="thumb-quote">Obama: "Gang Bangers"<small>[30sec] </small></p>
+
+						<a class="thumb-link" href="#" data-start="38750" data-end="39190"><img src="thumbs/thumb06.png"></a>
+						<p class="thumb-quote">Obama: "I don't look at my pension. It's not as big as yours" <small>[1min]</small></p>
+
+						<a class="thumb-link" href="#" data-start="43620" data-end="44730"><img src="thumbs/thumb07.png"></a>
+						<p class="thumb-quote">Obama: Libya attack as an "an act of terror" - Get the transcript <small>[2min]</small></p>
+
+						<a class="thumb-link" href="#" data-start="47150" data-end="47870"><img src="thumbs/thumb08.png"></a>
+						<p class="thumb-quote">Romney: Two parents and a "culture of violence" <small>[1min]</small></p>
+
+						<a class="thumb-link" href="#" data-start="57580" data-end="57820"><img src="thumbs/thumb09.png"></a>
+						<p class="thumb-quote">Obama: The forty seven percent <small>[30sec]</small></p>
+
+						<p class="thumb-quote"><a class="thumb-link" href="#" data-start="1060" data-end="3810">First Question: Jobs </a><small>[5min]</small></p>
+
+						<p class="thumb-quote"><a class="thumb-link" href="#" data-start="6040" data-end="8910">Second Question: Energy </a><small>[5min]</small></p>
+
+						<p class="thumb-quote"><a class="thumb-link" href="#" data-start="13100" data-end="17210">Third Question: Taxes </a><small>[6min]</small></p>
+
+						<p class="thumb-quote"><a class="thumb-link" href="#" data-start="21200" data-end="24400">Fourth Question: Job equality </a><small>[5min]</small></p>
+
+						<p class="thumb-quote"><a class="thumb-link" href="#" data-start="25980" data-end="29670">Fifth Question: George W. Bush </a><small>[5min]</small></p>
+
+						<p class="thumb-quote"><a class="thumb-link" href="#" data-start="29800" data-end="33810">Sixth Question: Cost of living </a><small>[7min]</small></p>
+
+						<p class="thumb-quote"><a class="thumb-link" href="#" data-start="34090" data-end="37480">Seventh Question: Immigration </a><small>[6min]</small></p>
+
+						<p class="thumb-quote"><a class="thumb-link" href="#" data-start="40000" data-end="43280">Eighth Question: Libya </a><small>[7min]</small></p>
+
+						<p class="thumb-quote"><a class="thumb-link" href="#" data-start="45260" data-end="48490">Ninth Question: Guns </a><small>[5min]</small></p>
+
+						<p class="thumb-quote"><a class="thumb-link" href="#" data-start="50610" data-end="54110">Tenth Question: Outsourcing jobs </a><small>[6min]</small></p>
+
+						<p class="thumb-quote"><a class="thumb-link" href="#" data-start="55450" data-end="58350">Eleventh Question: Debunking misperceptions </a><small>[5min]</small></p>
+
+
+
+					</div>
+				</div>
+
+
+				<!--<div id="about" class="right-panel">
+						Discover which words were most often used by each of the candidates.
+				</div>-->
+				
+				<!--<div id="search-panel" class="right-panel">
+					<div class="panel-title">
+						Search Transcript
+					</div>
+					<form>
+						<p><input class="search-str" id="searchStr" type="text"><input id="search-btn" type="button" value="go"></p>
+					</form>
+				</div>-->
+
+				<div class="right-panel">
+					<div id="pieTitle" class="panel-title">
+						Total Words
+					</div>
+					<table class="table-talk">
+						<tr>
+							<td>
+								Romney <span id="repWords"></span>
+							</td>
+							<td>
+								Obama <span id="demWords"></span>
+							</td>
+						</tr>
+					</table>
+					<!--<div id="pie-talk"></div>-->
+					<div id="pie-chart"><span>Loading ...</span></div>
+					<form>
+						<p id="search-box"><input class="search-str" id="searchStr" type="text" value="search transcript"><input id="search-btn" type="button" value="Go"></p>
+					</form>
+				</div>
+
+
+				<div class="right-panel">
+					<div class="panel-title">
+						Share
+					</div>
+					<div class="share-snippet">Highlight a section of the transcript to clip and share that video snippet.</div>
+					<!--<a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.aljazeera.com/indepth/interactive/2012/10/20121049528478583.html?s=393">share</a>-->
+					<div class="social-hldr">
+						<div id="tweet-like"></div>
+						<a id="fb-link" style="display:none" href="" target="_blank"><img src="facebook.png"></a>
+					</div>
+				</div>
+			</div>
+
+			<div id="corner-text" class="footer row" style="display:none">
+				<p>Click on the bars to the left to watch the video segment where your keyword is mentioned by each of the candidates.</p>
+			</div>
+
+			<div class="mini-footer row">
+		
+			</div>
+			<div class="credits row">
+				<span class="content-org">
+					<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US" target="_blank"><img src="cc.png"></a>
+					<a href="http://www.3playmedia.com" target="_blank"><img src="3playmedialogo.png"></a>
+				</span>
+			</div>
+		</div>
+
+
+<!--[if lt IE 9]>
+  <script type="text/javascript" src="js/sizzle.js"></script>
+  <script type="text/javascript" src="js/es5-shim.min.js"></script>
+  <script type="text/javascript" src="js/popcorn.ie8.js"></script> 
+<![endif]-->
+
+		<!-- combine these -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>      
+		<script type="text/javascript" src="js/jquery.scrollto.min.js"></script>
+
+		<script type="text/javascript" src="js/d3.v2.min.js"></script>  
+		
+		<!-- use same version of jQuery as holding page does - that way it should be cached -->
+		<!-- minify these -->
+		<script type="text/javascript" src="js/popcorn.js"></script> 
+		<script type="text/javascript" src="js/popcorn.transcript.js"></script> 
+		<!--<script type="text/javascript" src="js/jquery.bbq.js"></script>-->  
+		<!--<script type="text/javascript" src="js/iemobile-fix.js"></script>-->
+		<script type="text/javascript" src="js/uselect.js"></script>
+
+		<!-- GA @start code -->
+		<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-30542235-1']); // aljazeera.com
+	  
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+		</script>
+		<!-- GA @end code -->
+	</body>
+</html>
