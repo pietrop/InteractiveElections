@@ -383,7 +383,7 @@ body { margin: 0; -webkit-text-size-adjust: 100%; }
 
 .thumb-hldr {
 	padding-top: 8px;
-	text-align: center;
+	text-align: left;
 	height: 397px;
 	overflow: auto;
 	margin-bottom: 12px;

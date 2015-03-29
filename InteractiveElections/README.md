@@ -27,6 +27,8 @@ Things you may want to cover:
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
 
+#Notes
+
 
 Span is in `seconds/1000` (milliseconds)
 Link is in  `seconds/10` (100 milliseconds)
@@ -37,3 +39,15 @@ last time code span = 1106004 milliseconds
 
 
 Speaker diarization is in seconds 
+
+
+Span is in `seconds*1000` (milliseconds)
+Link is in  `seconds*10` (100 milliseconds)
+
+
+span ->  /1000  = seconds
+Link ->  /10 = seconds 
+
+
+
+
