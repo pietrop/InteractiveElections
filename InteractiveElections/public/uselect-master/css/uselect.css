@@ -116,7 +116,7 @@ body { margin: 0; -webkit-text-size-adjust: 100%; }
     color: #444; background: #eee;
 }
 .header { font-size: 16px; }
-.body, .pane { background: #fcfcfc; }
+/*.body, .pane { background: #fcfcfc; }*/
 .right.col .body { padding: 0 0 0 16px; }
 .middle.col .body { padding: 0 16px; }
 .listview { padding-top: 16px; padding-left: 0px; margin: 0; font-weight: bold; color: #444; }
@@ -168,6 +168,7 @@ body { margin: 0; -webkit-text-size-adjust: 100%; }
 .right-panel {
 	background-color: #eee;
 	text-align: center;
+	margin-right: 30px;
 	font-size: 13px;
 	margin-bottom: 8px;
 }
